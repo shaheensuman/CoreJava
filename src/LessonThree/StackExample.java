@@ -11,8 +11,11 @@ public class StackExample {
         char[]charray=example.toCharArray();
         Stack<Character> first=new Stack<>();
         for(Character ch:charray){
-            first.pop();
+            first.push(ch);
         }
-        System.out.println(first.peek());
+        for (int i=0;i<charray.length;i++){
+            System.out.print(first.pop());
+        }
+
     }
 }

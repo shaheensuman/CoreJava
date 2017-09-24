@@ -40,4 +40,7 @@ public class ArryOne {
        //methodOne();
       // methodTwo();
     }
+    public void anotherArray(){
+        
+    }
 }
